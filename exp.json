@@ -7,9 +7,10 @@
   "version": "1.0.0",
   "orientation": "portrait",
   "primaryColor": "#cccccc",
+  "backgroundImageUrl": "./assets/icons/loading-background.jpg",
   "icon": "./assets/icons/app.png",
   "loading": {
-    "icon": "./assets/icons/loading.png",
+    "icon": "./assets/icons/peepee.jpg",
     "hideExponentText": false
   },
   "packagerOpts": {
