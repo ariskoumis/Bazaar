@@ -1,9 +1,11 @@
 import React from 'react';
 import {View, Button, Text, TextInput, ListView} from 'react-native';
+import SearchBar from 'react-native-searchbar';
 import {Font} from 'expo';
 import Router from '../navigation/Router';
 import Style from '../style/Style';
 import ListElement from '../components/ListElement';
+
 
 
 export default class ListScreen extends React.Component {
@@ -25,6 +27,13 @@ export default class ListScreen extends React.Component {
 	render() {
 		return (
 			<View>
+				<SearchBar
+					data={[]}
+					placeholder={"Product Name"}
+					handleChangeText={(text) => console.log(text)}
+					showOnLoad
+
+				/>
 				<ListElement itemText="test"/>
 				<ListView
 					dataSource={this.state.dataSource}

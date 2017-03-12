@@ -7,10 +7,10 @@
   "version": "1.0.0",
   "orientation": "portrait",
   "primaryColor": "#cccccc",
-  "backgroundImage": "./assets/icons/loading-background.png",
   "icon": "./assets/icons/app.png",
   "loading": {
     "icon": "./assets/icons/loading.png",
+    "backgroundImage": "./assets/icons/loading-background.png",
     "hideExponentText": false
   },
   "packagerOpts": {
