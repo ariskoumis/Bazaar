@@ -25,7 +25,7 @@ class App extends React.Component {
     await Font.loadAsync({
       'roboto': require('./assets/fonts/roboto-black.ttf')
     })  
-    console.log('WHAT')
+
     this.setState({ appIsReady: true });
   }
 
