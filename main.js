@@ -40,13 +40,6 @@ class App extends React.Component {
       </NavigationProvider>
     );
   }
-
-  // async _cacheResourcesAsync() {
-  //   await Font.loadAsync({
-  //     'roboto': require('./assets/fonts/roboto-black.ttf')
-  //   })
-  //   this.setState([appIsReady: true])
-  // }
   
 }
 
